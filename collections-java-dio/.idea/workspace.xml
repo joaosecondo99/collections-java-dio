@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdffcad9-fbbd-447f-9d53-55b1b846d1d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Set/OperacoesBasicas/ConjuntoConvidados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/OperacoesBasicas/Convidado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/Ordenacao/CadastroProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/Ordenacao/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/Pesquisa/AgendaContatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Set/Pesquisa/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/OperacoesBasicas/AgendaContatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/Ordenacao/AgendaEventos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/Ordenacao/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/Pesquisa/EstoqueProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Map/Pesquisa/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../calculadora/calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculadora/calculadora.java" afterDir="false" />
@@ -102,10 +102,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AgendaContatos.executor": "Run",
+    "Application.AgendaEventos.executor": "Run",
     "Application.CadastroProdutos.executor": "Run",
     "Application.ConjuntoConvidados.executor": "Run",
+    "Application.EstoqueProdutos.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
     "Application.ListaTarefas.executor": "Run",
+    "Application.Map.AgendaContatos.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
@@ -118,13 +121,26 @@
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CadastroProdutos">
+  <component name="RunManager" selected="Application.AgendaEventos">
     <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Set.Pesquisa.AgendaContatos" />
       <module name="collections-java-dio" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Set.Pesquisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgendaEventos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.Ordenacao.AgendaEventos" />
+      <module name="collections-java-dio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Map.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConjuntoConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Set.OperacoesBasicas.ConjuntoConvidados" />
+    <configuration name="EstoqueProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.Pesquisa.EstoqueProdutos" />
       <module name="collections-java-dio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Set.OperacoesBasicas.*" />
+          <option name="PATTERN" value="Map.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,25 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="List.OperacoesBasicas.ListaTarefa" />
+    <configuration name="Map.OperacoesBasicas.AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.OperacoesBasicas.AgendaContatos" />
       <module name="collections-java-dio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="List.OperacoesBasicas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListaTarefas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="List.OperacoesBasicas.ListaTarefas" />
-      <module name="collections-java-dio" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="List.OperacoesBasicas.*" />
+          <option name="PATTERN" value="Map.OperacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AgendaEventos" />
+        <item itemvalue="Application.EstoqueProdutos" />
+        <item itemvalue="Application.Map.OperacoesBasicas.AgendaContatos" />
         <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.AgendaContatos" />
-        <item itemvalue="Application.ConjuntoConvidados" />
-        <item itemvalue="Application.ListaTarefa" />
-        <item itemvalue="Application.ListaTarefas" />
       </list>
     </recent_temporary>
   </component>
